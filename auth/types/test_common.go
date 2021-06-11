@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/maticnetwork/tendermint/crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 )
 
 // NewTestTx creates new test tx

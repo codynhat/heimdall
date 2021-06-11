@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 
 	"github.com/maticnetwork/heimdall/slashing/types"

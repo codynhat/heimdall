@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/checkpoint"
 	chSim "github.com/maticnetwork/heimdall/checkpoint/simulation"
@@ -18,7 +18,7 @@ import (
 	hmTypes "github.com/maticnetwork/heimdall/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 )
 
 // QuerierTestSuite integrate test suite context object

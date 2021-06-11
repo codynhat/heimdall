@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/maticnetwork/heimdall/helper"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

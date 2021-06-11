@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
 	bankTypes "github.com/maticnetwork/heimdall/bank/types"

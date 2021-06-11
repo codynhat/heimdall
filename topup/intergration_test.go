@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/types/simulation"

@@ -7,7 +7,7 @@ import (
 	"sort"
 
 	"github.com/cbergoon/merkletree"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/maticnetwork/bor/crypto"
 )
 

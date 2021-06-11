@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	"github.com/maticnetwork/heimdall/params/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"

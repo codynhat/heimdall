@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/maticnetwork/heimdall/auth/types"
 )

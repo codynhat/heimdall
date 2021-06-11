@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/maticnetwork/bor/accounts/abi"
 	"github.com/maticnetwork/bor/core/types"
 	"github.com/maticnetwork/heimdall/bridge/setu/util"

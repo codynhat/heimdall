@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 )
 
 // TODO we most likely dont need to register to amino as we are using RLP to encode

@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/helper"
 )
 

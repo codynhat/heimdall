@@ -1,10 +1,10 @@
 package processor
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/common"
-	httpClient "github.com/tendermint/tendermint/rpc/client"
+	"github.com/maticnetwork/tendermint/libs/common"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
 
 	"github.com/maticnetwork/heimdall/bridge/setu/broadcaster"
 	"github.com/maticnetwork/heimdall/bridge/setu/queue"

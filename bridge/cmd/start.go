@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/common"
-	httpClient "github.com/tendermint/tendermint/rpc/client"
+	"github.com/maticnetwork/tendermint/libs/common"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
 
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/bridge/setu/broadcaster"
 	"github.com/maticnetwork/heimdall/bridge/setu/listener"

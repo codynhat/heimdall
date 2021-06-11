@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 )
 
 func TestEqualProposalID(t *testing.T) {

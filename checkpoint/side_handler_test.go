@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/checkpoint"
 	chSim "github.com/maticnetwork/heimdall/checkpoint/simulation"
@@ -16,7 +16,7 @@ import (
 	"github.com/maticnetwork/heimdall/contracts/rootchain"
 	"github.com/maticnetwork/heimdall/helper/mocks"
 	hmTypes "github.com/maticnetwork/heimdall/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"

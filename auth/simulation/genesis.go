@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 
 	"github.com/maticnetwork/heimdall/auth/types"
 	"github.com/maticnetwork/heimdall/types/module"

@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/bor/common"
 	"github.com/maticnetwork/bor/rlp"
 )

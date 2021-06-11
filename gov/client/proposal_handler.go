@@ -3,8 +3,8 @@ package client
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/maticnetwork/heimdall/gov/client/rest"
 )
 

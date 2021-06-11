@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/maticnetwork/heimdall/types"
 )

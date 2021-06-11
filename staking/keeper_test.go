@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/app"
 
 	"github.com/maticnetwork/heimdall/helper"
@@ -18,7 +18,7 @@ import (
 	"github.com/maticnetwork/heimdall/types/simulation"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 type KeeperTestSuite struct {

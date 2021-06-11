@@ -10,7 +10,7 @@ import (
 	"github.com/maticnetwork/bor/core/types"
 	"github.com/maticnetwork/heimdall/helper"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
 	slashingTypes "github.com/maticnetwork/heimdall/slashing/types"

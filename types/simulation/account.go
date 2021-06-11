@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/tendermint/crypto"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"

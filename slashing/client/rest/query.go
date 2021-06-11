@@ -7,8 +7,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/types/rest"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/types/rest"
 
 	"github.com/maticnetwork/heimdall/slashing/types"
 

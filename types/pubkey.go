@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	"github.com/maticnetwork/tendermint/crypto"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 	"gopkg.in/yaml.v2"
 
 	"github.com/maticnetwork/bor/common"

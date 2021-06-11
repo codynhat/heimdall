@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 	yaml "gopkg.in/yaml.v2"
 
 	"github.com/maticnetwork/heimdall/auth/exported"

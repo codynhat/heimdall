@@ -5,7 +5,7 @@ import (
 	"text/template"
 
 	"github.com/spf13/viper"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/maticnetwork/tendermint/libs/common"
 )
 
 // Note: any changes to the comments/variables/mapstructure

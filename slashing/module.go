@@ -8,11 +8,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	abci "github.com/tendermint/tendermint/abci/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/types/module"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/maticnetwork/heimdall/helper"
 	slashingCli "github.com/maticnetwork/heimdall/slashing/client/cli"

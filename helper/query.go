@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	cosmosContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	cosmosContext "github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/pkg/errors"
-	abci "github.com/tendermint/tendermint/abci/types"
-	httpClient "github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
+	ctypes "github.com/maticnetwork/tendermint/rpc/core/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 const (

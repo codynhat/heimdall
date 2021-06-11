@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	tmTypes "github.com/tendermint/tendermint/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 // PastCommit represent past commit for the record and process side-txs

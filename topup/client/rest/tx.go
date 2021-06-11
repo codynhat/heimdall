@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	restClient "github.com/maticnetwork/heimdall/client/rest"
 	topupTypes "github.com/maticnetwork/heimdall/topup/types"

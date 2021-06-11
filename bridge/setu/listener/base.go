@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/spf13/viper"
 	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/libs/log"
 
 	ethereum "github.com/maticnetwork/bor"
 	"github.com/maticnetwork/bor/core/types"
@@ -18,7 +18,7 @@ import (
 	"github.com/maticnetwork/heimdall/bridge/setu/util"
 	"github.com/maticnetwork/heimdall/helper"
 
-	httpClient "github.com/tendermint/tendermint/rpc/client"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
 )
 
 // Listener defines a block header listerner for Rootchain, Maticchain, Heimdall

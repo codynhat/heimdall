@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/maticnetwork/heimdall/chainmanager/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"
 	"github.com/maticnetwork/heimdall/types/module"

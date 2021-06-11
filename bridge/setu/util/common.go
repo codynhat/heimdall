@@ -13,12 +13,12 @@ import (
 	"time"
 
 	mLog "github.com/RichardKnop/machinery/v1/log"
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/log"
-	httpClient "github.com/tendermint/tendermint/rpc/client"
-	tmTypes "github.com/tendermint/tendermint/types"
+	"github.com/maticnetwork/tendermint/libs/log"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"
 	chainManagerTypes "github.com/maticnetwork/heimdall/chainmanager/types"

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 

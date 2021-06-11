@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	tmTypes "github.com/tendermint/tendermint/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/types/rest"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/types"
 )

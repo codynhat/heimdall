@@ -3,9 +3,9 @@ package utils
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/x/auth/client/utils"
 
 	"github.com/maticnetwork/heimdall/gov/types"
 	"github.com/maticnetwork/heimdall/helper"

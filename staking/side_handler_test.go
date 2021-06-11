@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	ethTypes "github.com/maticnetwork/bor/core/types"
 	"github.com/maticnetwork/heimdall/app"
 	chSim "github.com/maticnetwork/heimdall/checkpoint/simulation"
@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 //

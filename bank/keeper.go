@@ -3,9 +3,9 @@ package bank
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/tendermint/libs/log"
 
 	"github.com/maticnetwork/heimdall/auth"
 	"github.com/maticnetwork/heimdall/bank/types"

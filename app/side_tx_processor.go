@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"
 	"github.com/maticnetwork/heimdall/types"

@@ -8,10 +8,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/version"
 
 	gcutils "github.com/maticnetwork/heimdall/gov/client/utils"
 	"github.com/maticnetwork/heimdall/gov/types"

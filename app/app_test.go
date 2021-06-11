@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	"github.com/maticnetwork/tendermint/libs/log"
 	db "github.com/tendermint/tm-db"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"

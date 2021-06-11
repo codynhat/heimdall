@@ -3,7 +3,7 @@ package module
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/maticnetwork/cosmos-sdk/types/module"
 	"github.com/maticnetwork/heimdall/types"
 )
 

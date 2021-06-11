@@ -9,7 +9,7 @@ import (
 
 	"github.com/maticnetwork/bor/common"
 	"github.com/maticnetwork/heimdall/types"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 func TestShuffleList(t *testing.T) {

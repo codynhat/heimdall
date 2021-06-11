@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/maticnetwork/bor/common/math"
 	"github.com/maticnetwork/heimdall/topup/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"

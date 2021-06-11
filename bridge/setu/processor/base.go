@@ -1,9 +1,9 @@
 package processor
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 	"github.com/spf13/viper"
 	"github.com/syndtr/goleveldb/leveldb"
 
@@ -11,8 +11,8 @@ import (
 	"github.com/maticnetwork/heimdall/bridge/setu/queue"
 	"github.com/maticnetwork/heimdall/bridge/setu/util"
 	"github.com/maticnetwork/heimdall/helper"
-	"github.com/tendermint/tendermint/libs/log"
-	httpClient "github.com/tendermint/tendermint/rpc/client"
+	"github.com/maticnetwork/tendermint/libs/log"
+	httpClient "github.com/maticnetwork/tendermint/rpc/client"
 )
 
 // Processor defines a block header listerner for Rootchain, Maticchain, Heimdall

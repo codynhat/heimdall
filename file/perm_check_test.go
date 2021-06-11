@@ -8,7 +8,7 @@ import (
 
 	types "github.com/maticnetwork/heimdall/types/error"
 	"github.com/stretchr/testify/assert"
-	"github.com/tendermint/tendermint/libs/common"
+	"github.com/maticnetwork/tendermint/libs/common"
 )
 
 func TestPermCheck(t *testing.T) {

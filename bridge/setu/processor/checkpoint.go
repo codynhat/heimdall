@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	"github.com/maticnetwork/bor/accounts/abi"
 	"github.com/maticnetwork/bor/common"

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/store/prefix"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
 	subspace "github.com/maticnetwork/heimdall/params/subspace"

@@ -3,7 +3,7 @@ package processor
 import (
 	"encoding/json"
 
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/maticnetwork/bor/accounts/abi"
 	"github.com/maticnetwork/bor/core/types"
 	"github.com/maticnetwork/heimdall/bridge/setu/util"
@@ -12,7 +12,7 @@ import (
 	topupTypes "github.com/maticnetwork/heimdall/topup/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 )
 
 // FeeProcessor - process fee related events

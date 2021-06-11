@@ -16,11 +16,11 @@ import (
 	"github.com/maticnetwork/heimdall/file"
 	"github.com/spf13/viper"
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	logger "github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/privval"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
+	logger "github.com/maticnetwork/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/privval"
 
-	tmTypes "github.com/tendermint/tendermint/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 const (

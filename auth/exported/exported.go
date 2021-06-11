@@ -3,8 +3,8 @@ package exported
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/crypto"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/tendermint/crypto"
 
 	"github.com/maticnetwork/heimdall/types"
 )

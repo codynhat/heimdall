@@ -3,7 +3,7 @@ package params
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	govtypes "github.com/maticnetwork/heimdall/gov/types"
 	"github.com/maticnetwork/heimdall/params/types"
 )

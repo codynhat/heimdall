@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	ethTypes "github.com/maticnetwork/bor/core/types"
 	errs "github.com/maticnetwork/heimdall/common"
 	"github.com/maticnetwork/heimdall/contracts/stakinginfo"
@@ -25,7 +25,7 @@ import (
 	"github.com/maticnetwork/heimdall/helper/mocks"
 	hmTypes "github.com/maticnetwork/heimdall/types"
 	"github.com/maticnetwork/heimdall/types/simulation"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

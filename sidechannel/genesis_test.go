@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
@@ -13,7 +13,7 @@ import (
 	"github.com/maticnetwork/heimdall/sidechannel"
 	"github.com/maticnetwork/heimdall/sidechannel/simulation"
 	"github.com/maticnetwork/heimdall/sidechannel/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 )
 
 // GenesisTestSuite integrate test suite context object

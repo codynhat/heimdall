@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	"github.com/maticnetwork/heimdall/bank"
 	"github.com/maticnetwork/heimdall/chainmanager"
@@ -14,7 +14,7 @@ import (
 	"github.com/maticnetwork/heimdall/staking"
 	"github.com/maticnetwork/heimdall/topup/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/libs/log"
 )
 
 var (

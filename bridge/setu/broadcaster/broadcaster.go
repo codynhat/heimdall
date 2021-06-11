@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	cliContext "github.com/maticnetwork/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	bor "github.com/maticnetwork/bor"
 	"github.com/maticnetwork/bor/core/types"
 	authTypes "github.com/maticnetwork/heimdall/auth/types"
@@ -16,7 +16,7 @@ import (
 	"github.com/maticnetwork/heimdall/helper"
 
 	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/libs/log"
 )
 
 // TxBroadcaster uses to broadcast transaction to each chain

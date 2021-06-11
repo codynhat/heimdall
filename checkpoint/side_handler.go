@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"strconv"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/checkpoint/types"
 	"github.com/maticnetwork/heimdall/common"

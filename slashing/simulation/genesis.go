@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/codec"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	"github.com/maticnetwork/heimdall/slashing/types"
 	"github.com/maticnetwork/heimdall/types/module"

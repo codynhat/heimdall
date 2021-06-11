@@ -5,15 +5,15 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	"github.com/maticnetwork/heimdall/common"
 	hmCommon "github.com/maticnetwork/heimdall/common"
 	"github.com/maticnetwork/heimdall/helper"
 	"github.com/maticnetwork/heimdall/slashing/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 // NewSideTxHandler returns a side handler for "topup" type messages.

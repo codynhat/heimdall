@@ -1,7 +1,7 @@
 package bank
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	bankTypes "github.com/maticnetwork/heimdall/bank/types"
 )

@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/spf13/cobra"
 	amino "github.com/tendermint/go-amino"
 

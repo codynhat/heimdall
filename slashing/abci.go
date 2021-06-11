@@ -3,11 +3,11 @@ package slashing
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/slashing/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "github.com/maticnetwork/tendermint/types"
 )
 
 func BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock, k Keeper) {

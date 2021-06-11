@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	crkeys "github.com/cosmos/cosmos-sdk/crypto/keys"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client"
+	"github.com/maticnetwork/cosmos-sdk/client/keys"
+	crkeys "github.com/maticnetwork/cosmos-sdk/crypto/keys"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/bor/crypto"
 	ethCrypto "github.com/maticnetwork/bor/crypto/secp256k1"
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 // TxBuilder implements a transaction context created in SDK modules.

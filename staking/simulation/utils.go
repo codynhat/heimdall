@@ -4,7 +4,7 @@ import (
 	"math/rand"
 
 	"github.com/maticnetwork/heimdall/types"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 // GenRandomVal generate random validators

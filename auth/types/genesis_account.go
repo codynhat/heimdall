@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	supplyExported "github.com/maticnetwork/heimdall/supply/exported"
 	hmTypes "github.com/maticnetwork/heimdall/types"
 )

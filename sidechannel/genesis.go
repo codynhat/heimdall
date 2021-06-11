@@ -3,8 +3,8 @@ package sidechannel
 import (
 	"sort"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/sidechannel/types"
 )

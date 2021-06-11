@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/tendermint/libs/log"
 
 	"github.com/maticnetwork/bor/common"
 	"github.com/maticnetwork/heimdall/bor/types"

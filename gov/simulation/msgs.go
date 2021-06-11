@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/maticnetwork/cosmos-sdk/baseapp"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/x/simulation"
 
 	"github.com/maticnetwork/heimdall/gov"
 	govTypes "github.com/maticnetwork/heimdall/gov/types"

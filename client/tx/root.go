@@ -3,7 +3,7 @@ package tx
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
 )
 
 // RegisterRoutes registers REST routes

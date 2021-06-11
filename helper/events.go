@@ -1,7 +1,7 @@
 package helper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 )
 
 // FilterEvents filter events by fn

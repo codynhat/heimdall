@@ -1,7 +1,7 @@
 package clerk
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	"github.com/maticnetwork/heimdall/clerk/types"
 )

@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/bor/common"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/libs/log"
 
 	"github.com/maticnetwork/heimdall/chainmanager"
 	"github.com/maticnetwork/heimdall/helper"

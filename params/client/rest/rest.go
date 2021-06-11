@@ -3,8 +3,8 @@ package rest
 import (
 	"net/http"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	restClient "github.com/maticnetwork/heimdall/client/rest"
 	govRest "github.com/maticnetwork/heimdall/gov/client/rest"

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/staking"
 	stakingSim "github.com/maticnetwork/heimdall/staking/simulation"
 

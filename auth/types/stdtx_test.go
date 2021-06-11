@@ -5,14 +5,14 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkAuth "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	sdkAuth "github.com/maticnetwork/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/tendermint/tendermint/libs/log"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/libs/log"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 var (

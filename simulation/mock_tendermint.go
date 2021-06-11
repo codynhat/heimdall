@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	tmtypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/types"
 )

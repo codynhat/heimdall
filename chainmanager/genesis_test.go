@@ -3,7 +3,7 @@ package chainmanager_test
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/maticnetwork/heimdall/app"
 	"github.com/maticnetwork/heimdall/chainmanager"
 	"github.com/maticnetwork/heimdall/chainmanager/types"

@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	hmTypes "github.com/maticnetwork/heimdall/types"
 )

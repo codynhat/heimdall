@@ -9,7 +9,7 @@ require (
 	github.com/btcsuite/btcd v0.20.1-beta // indirect
 	github.com/cbergoon/merkletree v0.2.0
 	github.com/cespare/cp v1.1.1 // indirect
-	github.com/cosmos/cosmos-sdk v0.37.4
+	github.com/maticnetwork/cosmos-sdk v0.37.5-0.20200503092858-55131f25dd9d
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/docker/docker v1.13.1 // indirect
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/syndtr/goleveldb v1.0.1-0.20190923125748-758128399b1d
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.15.0
-	github.com/tendermint/tendermint v0.32.7
+	github.com/maticnetwork/tendermint v0.26.0-dev0.0.20200429080413-edc079e7d4c9
 	github.com/tendermint/tm-db v0.2.0
 	github.com/tyler-smith/go-bip39 v1.0.2 // indirect
 	golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79 // indirect
@@ -52,7 +52,3 @@ require (
 	golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 )
-
-replace github.com/tendermint/tendermint => github.com/maticnetwork/tendermint v0.26.0-dev0.0.20200429080413-edc079e7d4c9
-
-replace github.com/cosmos/cosmos-sdk => github.com/maticnetwork/cosmos-sdk v0.37.5-0.20200503092858-55131f25dd9d

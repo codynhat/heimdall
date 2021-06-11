@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
 )
 
 var addr = hmTypes.BytesToHeimdallAddress(secp256k1.GenPrivKey().PubKey().Address())

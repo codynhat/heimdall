@@ -1,7 +1,7 @@
 package supply
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	auth "github.com/maticnetwork/heimdall/auth"
 	authTypes "github.com/maticnetwork/heimdall/auth/types"

@@ -1,9 +1,9 @@
 package rest
 
 import (
-	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/maticnetwork/cosmos-sdk/client/context"
 	"github.com/gorilla/mux"
-	tmLog "github.com/tendermint/tendermint/libs/log"
+	tmLog "github.com/maticnetwork/tendermint/libs/log"
 
 	"github.com/maticnetwork/heimdall/helper"
 )

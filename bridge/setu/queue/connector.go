@@ -2,7 +2,7 @@ package queue
 
 import (
 	"github.com/streadway/amqp"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/maticnetwork/tendermint/libs/log"
 
 	"github.com/RichardKnop/machinery/v1"
 	"github.com/RichardKnop/machinery/v1/config"

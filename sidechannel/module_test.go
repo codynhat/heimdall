@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/app"
 	sidechannel "github.com/maticnetwork/heimdall/sidechannel"

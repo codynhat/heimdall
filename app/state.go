@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	"github.com/maticnetwork/tendermint/crypto/secp256k1"
+	tmtypes "github.com/maticnetwork/tendermint/types"
 
 	simapparams "github.com/maticnetwork/heimdall/app/params"
 	authTypes "github.com/maticnetwork/heimdall/auth/types"

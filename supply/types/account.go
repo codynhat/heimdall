@@ -5,8 +5,8 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/crypto"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	"github.com/maticnetwork/tendermint/crypto"
 
 	authExported "github.com/maticnetwork/heimdall/auth/exported"
 	authTypes "github.com/maticnetwork/heimdall/auth/types"

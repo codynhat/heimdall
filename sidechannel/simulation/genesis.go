@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 
 	"github.com/maticnetwork/heimdall/sidechannel/types"
 )

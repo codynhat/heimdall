@@ -3,7 +3,7 @@ package topup
 import (
 	"math/big"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 
 	authTypes "github.com/maticnetwork/heimdall/auth/types"
 	hmCommon "github.com/maticnetwork/heimdall/common"

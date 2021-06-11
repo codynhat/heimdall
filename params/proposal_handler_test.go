@@ -3,12 +3,12 @@ package params_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/maticnetwork/cosmos-sdk/codec"
+	"github.com/maticnetwork/cosmos-sdk/store"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	"github.com/maticnetwork/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
 	"github.com/maticnetwork/heimdall/params"

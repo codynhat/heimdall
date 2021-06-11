@@ -3,8 +3,8 @@ package app
 import (
 	"encoding/json"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmTypes "github.com/tendermint/tendermint/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
+	tmTypes "github.com/maticnetwork/tendermint/types"
 )
 
 // ExportAppStateAndValidators exports the state of heimdall for a genesis file

@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkAuth "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/maticnetwork/cosmos-sdk/types"
+	sdkAuth "github.com/maticnetwork/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/maticnetwork/tendermint/abci/types"
 
 	ethTypes "github.com/maticnetwork/bor/core/types"
 	"github.com/maticnetwork/heimdall/app"

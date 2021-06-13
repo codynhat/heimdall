@@ -56,3 +56,5 @@ require (
 replace github.com/tendermint/tendermint => github.com/maticnetwork/tendermint v0.26.0-dev0.0.20200429080413-edc079e7d4c9
 
 replace github.com/cosmos/cosmos-sdk => github.com/maticnetwork/cosmos-sdk v0.37.5-0.20200503092858-55131f25dd9d
+
+replace github.com/karalabe/usb => github.com/codynhat/usb v0.0.0-20210613200832-3d2ea270e3a7
